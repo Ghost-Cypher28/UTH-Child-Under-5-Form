@@ -45,14 +45,16 @@ public class RegisterListView extends javax.swing.JFrame {
     private void loadChildren() {
         List<Child> children = new ArrayList<>();
 
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/registered_child", "root", "");
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_child_register_form",
+                "root", "");
                 Statement stmt = conn.createStatement();
-                ResultSet rs = stmt.executeQuery("SELECT * FROM firstName")) {
+                ResultSet rs = stmt.executeQuery("SELECT * FROM registered_child")) {
 
             while (rs.next()) {
                 String name = rs.getString("firstName");
+                String gender = rs.getString("Gender");
                 int age = rs.getInt("age");
-                children.add(new Child(name, age, name));
+                children.add(new Child(name, age, name, gender));
             }
 
         } catch (Exception e) {

@@ -32,7 +32,7 @@ public class Login extends javax.swing.JFrame {
                 fname = new javax.swing.JTextField();
                 lname = new javax.swing.JTextField();
                 age = new javax.swing.JTextField();
-                gender = new javax.swing.JTextField();
+                genderComboBox = new javax.swing.JComboBox<>();
                 immunizations = new javax.swing.JTextField();
                 jLabel7 = new javax.swing.JLabel();
                 jLabel8 = new javax.swing.JLabel();
@@ -124,9 +124,15 @@ public class Login extends javax.swing.JFrame {
                 age.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
                 age.setForeground(new java.awt.Color(102, 102, 102));
 
+                String[] genderOptions = { "Male", "Female" };
+                genderComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(genderOptions));
+
                 jLabel8.setBackground(new java.awt.Color(102, 102, 102));
                 jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
                 jLabel8.setText("Gender");
+
+                gender = new javax.swing.JTextField();
+                genderComboBox = new javax.swing.JComboBox<>(genderOptions);
 
                 gender.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
                 gender.setForeground(new java.awt.Color(102, 102, 102));

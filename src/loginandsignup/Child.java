@@ -13,6 +13,10 @@ public class Child {
         this.gender = gender;
     }
 
+    public Child(String name2, int age2, String name3, String gender2) {
+        //TODO Auto-generated constructor stub
+    }
+
     // Getter methods
     public String getName() {
         return name;
