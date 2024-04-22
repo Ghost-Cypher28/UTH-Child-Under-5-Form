@@ -1,0 +1,68 @@
+
+
+
+     Table of Contents
+INTRODUCTION02
+FEATURES02
+REQUIREMENTS02
+USAGE03
+
+
+
+
+
+Documentation
+
+1. INTRODUCTION 
+The Child Register Form is a Java project designed to facilitate the registration of children in a system. It provides a user-friendly interface for entering and storing information about children, including their personal details, medical history, and emergency contacts. This documentation serves as a guide for developers and users to understand the functionality and usage of the Child Register Form application.
+
+2. FEATURES
+User-friendly Interface: The application provides an intuitive interface for users to easily navigate and input information.
+Registration Form: FirstName, LastName ,Age ,Gender (Options: Male or Female) , Immunizations (Multiple select options: BCG, MMR, RV, DTaP).
+ListView Javaaf: Give a list of the children of the that are registered and easy sorted.
+Profile/Home: Bring up the child information that is in the registration form.
+Data Validation: The form includes data validation to ensure that users enter accurate and appropriate information.
+
+3. REQUIREMENTS
+Java Development Kit (JDK) version 8 or higher.
+Integrated Development Environment (IDE) used is NetBeans.
+MySQL Database (optional, if storing data persistently).
+JDBC driver for MySQL (if using MySQL Database).
+Installation and Setup:
+Clone or download the Child Register Form project repository from GitHub.
+Import the project into your preferred IDE.
+Set up the database connection if using MySQL by configuring the database URL, username, and password in the application properties file.
+Build and run the application.
+4. USAGE
+Launch the application.
+Fill out the registration form with the required details for the child.
+Optionally, input medical history and emergency contact information.
+Click the "Submit" button to save the information.
+Users can also search for existing entries and edit or delete them as needed.
+Contributing:
+
+Contributions to the Child Register Form project are welcome. Developers can contribute by:
+Adding new features or enhancements.
+Fixing bugs or issues.
+Improving documentation.
+Providing feedback and suggestions for improvement.
+To contribute, fork the repository, make changes, and submit a pull request.
+
+The Child Register Form project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgements:
+
+We would like to thank the developers and contributors who have helped in the development of the Child Register Form project.
+
+Version History:
+
+Version 1.0: Initial release (Date)
+Version 1.1: Bug fixes and enhancements (Date)
+Version 1.2: Added search functionality (Date)
+This documentation provides an overview of the Child Register Form project, including its features, installation instructions, usage guidelines, and more. Developers and users can refer to this documentation for information on how to utilize the application effectively.
+
+
+
+2 | Page
+
+
